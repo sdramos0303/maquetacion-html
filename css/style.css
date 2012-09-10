@@ -50,7 +50,14 @@ body{
 .nav li a.active {
   background: none;
 }
-
+/*******************************/
+#logo {
+height: 56px;  
+}
+#logo img {
+  margin-left: 20px;
+  margin-top: 10px;
+}
 /***** Main *********/
 #main-wrapper{
   margin: 0 20px 5px;
@@ -94,16 +101,16 @@ body{
   border-bottom: none; 
 }
 #block-2 ul li.one {
-  background: url('../img/img-5.png') no-repeat -2px 5px;
+  background: url('../img/img-5.png') no-repeat -2px 6px;
 }
 #block-2 ul li.two {
-  background: url('../img/img-5.png') no-repeat -2px -27px;
+  background: url('../img/img-5.png') no-repeat -2px -23px;
 }
 #block-2 ul li.three {
-  background: url('../img/img-5.png') no-repeat -2px  -57px;
+  background: url('../img/img-5.png') no-repeat -2px  -54px;
 }
 #block-2 ul li.four {
-  background: url('../img/img-5.png') no-repeat -2px -88px;
+  background: url('../img/img-5.png') no-repeat -2px -85px;
 }
 #block-2 ul li.five {
   background: url('../img/img-5.png') no-repeat -2px -116px;
