@@ -32,29 +32,35 @@ body{
   float: left;
   list-style: none;
   padding: 4px;
-  margin: 25px 22px 0px;
+  margin: 25px 8px 0px;
 }
 .nav li a:hover {
   color: #009900;
   text-decoration: none;
 }
 .nav li a {
+  background: url('../img/arrow.png') no-repeat 1px 6px;
   color: #000000;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
   text-transform:uppercase;
+  padding-left: 25px;
+}
+.nav li a.active {
+  background: none;
 }
 
 /***** Main *********/
 #main-wrapper{
   margin: 0 20px 5px;
   border-bottom: 1px dashed white;
+  width: 735px;
 }
 /******** sidebar-left *****************/
 #sidebar-left{
   float: left;
-  width: 485px;  
+  width: 530px;
 }
 #sidebar-left .sidebar-left-wrapper{
   padding-left: 35px;
@@ -63,47 +69,55 @@ body{
 #sidebar-left h2 {
 
 }
-#sidebar-left h2 span{
+#block-1 h2 span{
   color: #d4ed24;
 }
 
 #block-2 {
   float: left;
   width: 205px;
+  padding-right: 45px; 
 }
 #block-3 {
   float: left;
-  width: 190px;
+  width: 185px;
+}
+#block-2 h2 span,
+#block-3 h2 span{
+ color:#25c1d1;
 }
 #block-2 ul li {
   border-bottom: 1px dashed #fffefe;  
-  padding: 6px 2px 6px 25px;
+  padding: 8px 2px 8px 25px;
+}
+#block-2 ul li.last {
+  border-bottom: none; 
 }
 #block-2 ul li.one {
-  background: url('../img/img-5.png') no-repeat -4px 5px;
+  background: url('../img/img-5.png') no-repeat -2px 5px;
 }
 #block-2 ul li.two {
-  background: url('../img/img-5.png') no-repeat -4px -27px;
+  background: url('../img/img-5.png') no-repeat -2px -27px;
 }
 #block-2 ul li.three {
-  background: url('../img/img-5.png') no-repeat -4px  -57px;
+  background: url('../img/img-5.png') no-repeat -2px  -57px;
 }
 #block-2 ul li.four {
-  background: url('../img/img-5.png') no-repeat -4px -88px;
+  background: url('../img/img-5.png') no-repeat -2px -88px;
 }
 #block-2 ul li.five {
-  background: url('../img/img-5.png') no-repeat -4px -116px;
+  background: url('../img/img-5.png') no-repeat -2px -116px;
 }
 #block-2 ul li.six {
-  background: url('../img/img-5.png') no-repeat -4px -145px;
+  background: url('../img/img-5.png') no-repeat -2px -145px;
 }
 #block-2 ul li.seven {
-  background: url('../img/img-5.png') no-repeat -4px -177px;
+  background: url('../img/img-5.png') no-repeat -2px -177px;
 }
 /******** sidebar right *****************/
 #sidebar-right {
   float: right;
-  width: 250px;
+  width: 205px;
 }
 #sidebar-right .sidebar-right-wrapper {
   padding-top: 25px;
